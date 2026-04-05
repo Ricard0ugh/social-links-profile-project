@@ -1,0 +1,13 @@
+:root {
+    
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+
+    --fonts: "Inter", sans-serif;
+
+    --grey700: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --grey900: hsl(0, 0%, 8%);
+}
+
+- Desktop: 1440px
