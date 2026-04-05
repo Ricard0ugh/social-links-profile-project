@@ -33,6 +33,7 @@ body {
 
 #social-card img {
     border-radius: 50%;
+    width: 90px;
 }
 
 #social-card h1 {
@@ -52,10 +53,34 @@ body {
     font-size: 14px;
     color: var(--white);
     font-weight: 200;
-    margin: 2rem 0;
+    margin: 2rem 2rem;
 }
 
 #social-card ul
 {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#social-card li {
+    margin: 1rem 0;
+}
+
+
+#social-card a {
+    display: block;
+    text-decoration: none;
+    background-color: var(--grey700);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+#social-card a:hover {
+    background-color: var(--green);
+    color: var(--grey900);
+
+    transition: background-color .8s ease, color .3s ease;
 }
