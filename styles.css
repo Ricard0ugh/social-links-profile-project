@@ -10,4 +10,16 @@
     --grey900: hsl(0, 0%, 8%);
 }
 
-- Desktop: 1440px
+
+
+body {
+    background-color: var(--grey900);
+    margin: 0;
+    font-weight: 400;
+}
+
+main,
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
